@@ -40,6 +40,8 @@ Spring Boot 기반 백엔드 개발자입니다. 배포 자동화와 운영 안�
 
 ---
 
-## 📈 Stats (선택)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=xixvivji&show_icons=true&hide_title=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xixvivji&layout=compact)
+## 📈 Stats 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=xixvivji&show_icons=true&theme=tokyonight&hide_title=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xixvivji&layout=compact&theme=tokyonight" height="160"/>
+</p>
