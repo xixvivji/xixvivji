@@ -50,8 +50,8 @@ Spring Boot 기반 백엔드 개발자입니다. 배포 자동화와 운영 안�
 ## 📈 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=xixvivji&show_icons=true&theme=tokyonight&hide_title=true&count_private=true&include_all_commits=true&cache_seconds=86400&v=20260216" height="160" alt="GitHub stats" />
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=xixvivji&layout=compact&theme=tokyonight&cache_seconds=86400&v=20260216" height="160" alt="Top languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xixvivji&theme=tokyonight" height="160" alt="GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=xixvivji&theme=tokyonight" height="160" alt="Top languages" />
 </p>
 
 ## 🧩 Baekjoon
