@@ -4,7 +4,9 @@ Backend · Infra · AI Serving
 
 Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지 않고, 캐싱·실시간 처리·배포 자동화·운영 장애 진단까지 서비스가 실제로 안정적으로 동작하는 구조를 고민합니다.
 
-[Email](mailto:kjw3568@naver.com) ·
+Email : kjw3568@naver.com
+Phone : 010-8240-3833
+
 [GitHub](https://github.com/xixvivji) ·
 [Portfolio](https://xixvivji.github.io) ·
 [Baekjoon](https://solved.ac/profile/kjw96041938)
