@@ -27,11 +27,30 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 
 ## Tech Stack
 
-- **Backend**: Java, Spring Boot, JPA, Spring Security, JWT
-- **Database / Cache**: MySQL, PostgreSQL, Redis
-- **Realtime / Messaging**: WebSocket, STOMP, RabbitMQ, FCM
-- **Infra / DevOps**: AWS EC2, AWS S3, Docker, Nginx, Jenkins
-- **AI / Data**: Python, FastAPI, PyTorch, YOLOv11, SegFormer
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+
+**Database / Cache**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Infra / DevOps**
+
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+
+**AI / Data**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
 ---
 
@@ -42,44 +61,26 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 - 기간/인원: 2026.01 - 2026.02 · 6명
 - 역할: Backend 30%, Infra/DevOps 100%
 - Repo: [xixvivji/mung-shall](https://github.com/xixvivji/mung-shall)
-- Stack: Spring Boot, JPA, MySQL, Docker, Nginx, Jenkins, OpenVidu
 - 입양 신청부터 단계 승인, 체크리스트, 사후관리, 화상 상담까지 하나의 프로세스로 연결한 플랫폼입니다.
-- 입양 단계를 `Enum` 기반 상태 모델로 설계하고, 보호소/입양자/관리자 권한을 분리했습니다.
-- OpenVidu를 별도 EC2에서 운영하고 Nginx 경로 기반 라우팅으로 Spring Boot API와 WebRTC 트래픽을 분리했습니다.
-- Jenkins 파이프라인, Docker Compose 배포, Prometheus/Grafana 모니터링을 구성했습니다.
 
 ### Z멋대로 - 숏폼 기반 AI 투자·그룹 공동 투자 플랫폼
 
 - 기간/인원: 2026.03 - 2026.04 · 6명
 - 역할: Backend / Infra
 - Repo: [xixvivji/z-invest](https://github.com/xixvivji/z-invest)
-- Stack: Spring Boot, JPA, PostgreSQL, Redis, WebSocket/STOMP, FCM
 - 숏폼 투자 피드, AI 종목 리포트, 개인 투자 관리, 그룹 공동 투자, 실시간 주식 정보를 제공하는 투자 플랫폼입니다.
-- KIS 주식 API 연동, 시세 스케줄링, 매수/매도 거래 흐름, 주문/보유/관심종목 DB 구조를 구현했습니다.
-- Redis TTL 캐싱으로 주요 조회 API 응답 속도를 약 480ms에서 90ms 수준으로 개선했습니다.
-- FCM 푸시 알림과 실시간 데이터 흐름을 연동하고, 반복 Polling 구조를 WebSocket/STOMP 기반 Push 구조로 전환했습니다.
 
 ### LUMEN / SmartCane - AI 기반 시각장애인 보행 안전 서비스
 
 - 기간/인원: 2026.04 - 2026.05 · 6명
 - 역할: AI 모델·데이터·인프라
 - Repo: [xixvivji/C102_LUMEN_PROJECT](https://github.com/xixvivji/C102_LUMEN_PROJECT)
-- Stack: Python, PyTorch, YOLOv11, SegFormer, Spring Boot, Redis, Docker
 - 카메라 기반으로 보도, 차도, 점자블록, 횡단보도, 신호등, 장애물 등 보행 위험 요소를 감지하고 음성/햅틱 피드백을 제공하는 서비스입니다.
-- 야간, 역광, 측면 환경에서 성능이 낮아지는 원인을 데이터 편중으로 보고 12,000장 이상의 실환경 이미지를 수집·라벨링했습니다.
-- YOLOv11 기반 재학습으로 mAP@0.5를 0.41에서 0.78 수준으로 개선했습니다.
-- SegFormer 기반 보행 환경 분류와 YOLO 객체 탐지 결과를 조합해 보행 판단 파이프라인을 구성했습니다.
-- 고사양 기기는 온디바이스 추론, 저사양 기기는 EC2 추론 서버로 폴백하는 이중 추론 구조를 설계했습니다.
 
 ### Fintech Mock Investing Platform - 리그형 모의투자 서비스
 
 - Repo: [xixvivji/fintech-project](https://github.com/xixvivji/fintech-project)
-- Stack: Spring Boot, JPA, PostgreSQL, Redis, RabbitMQ, WebSocket
 - 공용 리그 날짜를 기준으로 과거 시세를 리플레이하며 여러 사용자가 같은 시점에서 경쟁하는 모의투자 서비스입니다.
-- 시장가/지정가 주문, 체결내역, 미체결 주문, 보유 종목, 수익률 랭킹, 리그 운영 상태를 구현했습니다.
-- 외부 KIS API 의존을 줄이기 위해 `daily_price` DB 캐시 구조와 요청 범위 커버 검사를 도입했습니다.
-- `2015-01-01 ~ 2025-12-31` 일봉 데이터를 선적재하는 백필 API와 PowerShell 자동화 스크립트를 구성했습니다.
-- 백필 결과 예시 기준 50개 종목, 124,982 rows 데이터를 적재했습니다.
 
 ---
 
