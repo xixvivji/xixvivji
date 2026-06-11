@@ -13,23 +13,20 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 
 ## About
 
-- SSAFY 14기 Java 전공반에서 Java/Spring, DB, 알고리즘, 팀 프로젝트와 배포 실습을 진행했습니다.
-- Spring Boot, JPA, MySQL/PostgreSQL, Redis 기반의 백엔드 구현 경험이 있습니다.
-- Docker, Nginx, Jenkins, AWS EC2/S3를 활용해 운영 서버 구성과 CI/CD 자동화를 경험했습니다.
-- WebSocket/STOMP, RabbitMQ, FCM, Redis TTL 캐싱으로 실시간 데이터와 알림 흐름을 개선했습니다.
-- AI 프로젝트에서는 데이터 수집/라벨링, YOLOv11/SegFormer 기반 모델 개선, 추론 서버 구조 설계를 수행했습니다.
+- Java/Spring Boot 기반으로 REST API, 인증, 데이터 모델링, 거래/상태 흐름을 구현해왔습니다.
+- Redis 캐싱, WebSocket/STOMP, FCM을 활용해 반복 요청과 실시간 알림 흐름을 개선했습니다.
+- Docker, Nginx, Jenkins, AWS EC2 기반으로 배포 자동화와 운영 환경 문제 해결을 경험했습니다.
+- AI 서비스에서는 데이터 수집/라벨링, 모델 개선, 추론 서버 폴백 구조까지 함께 설계했습니다.
 
 ---
 
 ## Tech Stack
 
-- **Backend**: Java 17/21, Spring Boot, Spring Data JPA, Spring Security, JWT, REST API
+- **Backend**: Java, Spring Boot, JPA, Spring Security, JWT
+- **Database / Cache**: MySQL, PostgreSQL, Redis
 - **Realtime / Messaging**: WebSocket, STOMP, RabbitMQ, FCM
-- **Database / Cache**: MySQL, PostgreSQL, Redis, PostGIS
-- **Infra / DevOps**: AWS EC2, AWS S3, Docker, Docker Compose, Nginx, Jenkins, GitLab Webhook
-- **Monitoring**: Prometheus, Grafana, Spring Actuator, Node Exporter
-- **AI / Data**: Python, FastAPI, PyTorch, YOLOv11, SegFormer, OpenCV
-- **Frontend**: React, TypeScript, Vite, Axios, Zustand, Lightweight Charts
+- **Infra / DevOps**: AWS EC2, AWS S3, Docker, Nginx, Jenkins
+- **AI / Data**: Python, FastAPI, PyTorch, YOLOv11, SegFormer
 
 ---
 
@@ -40,7 +37,7 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 - 기간/인원: 2026.01 - 2026.02 · 6명
 - 역할: Backend 30%, Infra/DevOps 100%
 - Repo: [xixvivji/mung-shall](https://github.com/xixvivji/mung-shall)
-- Stack: Java, Spring Boot, JPA, MySQL, JWT/RBAC, AWS EC2, Docker Compose, Nginx, Jenkins, OpenVidu, Prometheus, Grafana
+- Stack: Spring Boot, JPA, MySQL, Docker, Nginx, Jenkins, OpenVidu
 - 입양 신청부터 단계 승인, 체크리스트, 사후관리, 화상 상담까지 하나의 프로세스로 연결한 플랫폼입니다.
 - 입양 단계를 `Enum` 기반 상태 모델로 설계하고, 보호소/입양자/관리자 권한을 분리했습니다.
 - OpenVidu를 별도 EC2에서 운영하고 Nginx 경로 기반 라우팅으로 Spring Boot API와 WebRTC 트래픽을 분리했습니다.
@@ -51,7 +48,7 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 - 기간/인원: 2026.03 - 2026.04 · 6명
 - 역할: Backend / Infra
 - Repo: [xixvivji/z-invest](https://github.com/xixvivji/z-invest)
-- Stack: Java 17, Spring Boot 3.4, JPA, Spring Security, PostgreSQL, Redis, WebSocket/STOMP, Firebase FCM, Docker, FastAPI
+- Stack: Spring Boot, JPA, PostgreSQL, Redis, WebSocket/STOMP, FCM
 - 숏폼 투자 피드, AI 종목 리포트, 개인 투자 관리, 그룹 공동 투자, 실시간 주식 정보를 제공하는 투자 플랫폼입니다.
 - KIS 주식 API 연동, 시세 스케줄링, 매수/매도 거래 흐름, 주문/보유/관심종목 DB 구조를 구현했습니다.
 - Redis TTL 캐싱으로 주요 조회 API 응답 속도를 약 480ms에서 90ms 수준으로 개선했습니다.
@@ -62,7 +59,7 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 - 기간/인원: 2026.04 - 2026.05 · 6명
 - 역할: AI 모델·데이터·인프라
 - Repo: [xixvivji/C102_LUMEN_PROJECT](https://github.com/xixvivji/C102_LUMEN_PROJECT)
-- Stack: Python, PyTorch, YOLOv11n, SegFormer, OpenCV, Android, Spring Boot, PostgreSQL/PostGIS, Redis, AWS S3, Docker, Jenkins
+- Stack: Python, PyTorch, YOLOv11, SegFormer, Spring Boot, Redis, Docker
 - 카메라 기반으로 보도, 차도, 점자블록, 횡단보도, 신호등, 장애물 등 보행 위험 요소를 감지하고 음성/햅틱 피드백을 제공하는 서비스입니다.
 - 야간, 역광, 측면 환경에서 성능이 낮아지는 원인을 데이터 편중으로 보고 12,000장 이상의 실환경 이미지를 수집·라벨링했습니다.
 - YOLOv11 기반 재학습으로 mAP@0.5를 0.41에서 0.78 수준으로 개선했습니다.
@@ -72,7 +69,7 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 ### Fintech Mock Investing Platform - 리그형 모의투자 서비스
 
 - Repo: [xixvivji/fintech-project](https://github.com/xixvivji/fintech-project)
-- Stack: Java 17, Spring Boot 3.4, JPA, PostgreSQL, Redis, RabbitMQ, WebSocket, React 19, Lightweight Charts, Docker Compose
+- Stack: Spring Boot, JPA, PostgreSQL, Redis, RabbitMQ, WebSocket
 - 공용 리그 날짜를 기준으로 과거 시세를 리플레이하며 여러 사용자가 같은 시점에서 경쟁하는 모의투자 서비스입니다.
 - 시장가/지정가 주문, 체결내역, 미체결 주문, 보유 종목, 수익률 랭킹, 리그 운영 상태를 구현했습니다.
 - 외부 KIS API 의존을 줄이기 위해 `daily_price` DB 캐시 구조와 요청 범위 커버 검사를 도입했습니다.
