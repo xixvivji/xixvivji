@@ -9,6 +9,11 @@ Java/Spring Boot 기반 백엔드 개발자입니다. API 구현에서 끝내지
 [Portfolio](https://xixvivji.github.io) ·
 [Baekjoon](https://solved.ac/profile/kjw96041938)
 
+## Education
+
+- 전남대학교 영어영문학과 / 소프트웨어공학과 부전공 · 2018.03 - 2025.08 · GPA 3.86/4.5
+- 삼성청년SW·AI아카데미(SSAFY) · 2025.07 - 2026.06
+
 ---
 
 ## About
