@@ -18,14 +18,6 @@ Phone : 010-8240-3833
 
 ---
 
-## About
-
-- Java/Spring Boot 기반으로 REST API, 인증, 데이터 모델링, 거래/상태 흐름을 구현해왔습니다.
-- Redis 캐싱, WebSocket/STOMP, FCM을 활용해 반복 요청과 실시간 알림 흐름을 개선했습니다.
-- Docker, Nginx, Jenkins, AWS EC2 기반으로 배포 자동화와 운영 환경 문제 해결을 경험했습니다.
-- AI 서비스에서는 데이터 수집/라벨링, 모델 개선, 추론 서버 폴백 구조까지 함께 설계했습니다.
-
----
 
 ## Tech Stack
 
