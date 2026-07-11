@@ -70,13 +70,6 @@ Phone : 010-8240-3833
 - Repo: [xixvivji/C102_LUMEN_PROJECT](https://github.com/xixvivji/C102_LUMEN_PROJECT)
 - 카메라 기반으로 보도, 차도, 점자블록, 횡단보도, 신호등, 장애물 등 보행 위험 요소를 감지하고 음성/햅틱 피드백을 제공하는 서비스입니다.
 
-### Fintech Mock Investing Platform - 리그형 모의투자 서비스
-
-- Repo: [xixvivji/fintech-project](https://github.com/xixvivji/fintech-project)
-- 공용 리그 날짜를 기준으로 과거 시세를 리플레이하며 여러 사용자가 같은 시점에서 경쟁하는 모의투자 서비스입니다.
-
----
-
 
 ## Stats
 
