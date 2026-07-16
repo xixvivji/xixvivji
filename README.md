@@ -47,29 +47,6 @@ Phone : 010-8240-3833
 
 ---
 
-## Featured Projects
-
-### MUNG! - 유기견 입양·사후관리 통합 플랫폼
-
-- 기간/인원: 2026.01 - 2026.02 · 6명
-- 역할: Backend 30%, Infra/DevOps 100%
-- Repo: [xixvivji/mung-shall](https://github.com/xixvivji/mung-shall)
-- 입양 신청부터 단계 승인, 체크리스트, 사후관리, 화상 상담까지 하나의 프로세스로 연결한 플랫폼입니다.
-
-### Z멋대로 - 숏폼 기반 AI 투자·그룹 공동 투자 플랫폼
-
-- 기간/인원: 2026.03 - 2026.04 · 6명
-- 역할: Backend / Infra
-- Repo: [xixvivji/z-invest](https://github.com/xixvivji/z-invest)
-- 숏폼 투자 피드, AI 종목 리포트, 개인 투자 관리, 그룹 공동 투자, 실시간 주식 정보를 제공하는 투자 플랫폼입니다.
-
-### LUMEN / SmartCane - AI 기반 시각장애인 보행 안전 서비스
-
-- 기간/인원: 2026.04 - 2026.05 · 6명
-- 역할: AI 모델·데이터·인프라
-- Repo: [xixvivji/C102_LUMEN_PROJECT](https://github.com/xixvivji/C102_LUMEN_PROJECT)
-- 카메라 기반으로 보도, 차도, 점자블록, 횡단보도, 신호등, 장애물 등 보행 위험 요소를 감지하고 음성/햅틱 피드백을 제공하는 서비스입니다.
-
 
 ## Stats
 
