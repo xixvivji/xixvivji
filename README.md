@@ -4,7 +4,6 @@ Backend · Infra · AI Serving
 
 
 Email : kjw3568@naver.com
-Phone : 010-8240-3833
 
 [GitHub](https://github.com/xixvivji) ·
 [Portfolio](https://xixvivji.github.io) ·
