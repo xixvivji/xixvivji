@@ -9,12 +9,6 @@ Email : kjw3568@naver.com
 [Portfolio](https://xixvivji.github.io) ·
 [Baekjoon](https://solved.ac/profile/kjw96041938)
 
-## Education
-
-- 전남대학교 영어영문학과 / 소프트웨어공학과 부전공 · 2018.03 - 2025.08 
-- 삼성청년SW·AI아카데미(SSAFY)JAVA전공 · 2025.07 - 2026.06
-- SKALA · 2026.07 ~
-
 ---
 
 
